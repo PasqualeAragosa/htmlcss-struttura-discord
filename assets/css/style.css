@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 .container {
@@ -24,6 +23,8 @@
 
 .col-2 {
     width: calc((100% / 12) *2);
+    background-color: chartreuse;
+    border: 1px solid black;
 }
 
 .col-3 {
@@ -71,7 +72,6 @@
 }
 /* #endregion Col- */
 
-
 /* #endregion Common rules */
 
 /* #region Body */
@@ -84,12 +84,20 @@
     background-color: white;
 }
 
-.grey {
+#site_footer {
+    background-color: chocolate;
+}
+
+.bg_grey {
     background-color: grey;
 }
 
 .download {
     height: 150px;
+}
+
+.discord_quality {
+    background-color: darkturquoise;
 }
 
 /* #endregion Body */
