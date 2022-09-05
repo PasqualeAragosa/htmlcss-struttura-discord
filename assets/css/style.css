@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .container {
@@ -14,6 +15,7 @@
 .row {
     display: flex;
 }
+
 
 /* #region Col- */
 .col-1 {
@@ -30,10 +32,13 @@
 
 .col-4 {
     width: calc((100% / 12) *4);
+        background-color: red;
+        border: 1px solid black;
 }
 
 .col-5 {
     width: calc((100% / 12) *5);
+    background-color: pink;
 }
 
 .col-6 {
@@ -42,6 +47,7 @@
 
 .col-7 {
     width: calc((100% / 12) *7);
+    background-color: blue;
 }
 
 .col-8 {
@@ -69,17 +75,21 @@
 /* #endregion Common rules */
 
 /* #region Body */
-header {
+#site_header {
     background-color: blueviolet;
     height: ;
 }
 
-.col-4 {
-    background-color: red;
-    border: 1px solid black;
+#site_main {
+    background-color: white;
+}
+
+.grey {
+    background-color: grey;
 }
 
 .download {
     height: 150px;
 }
+
 /* #endregion Body */
